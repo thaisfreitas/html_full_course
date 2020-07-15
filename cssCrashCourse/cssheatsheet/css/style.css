@@ -23,6 +23,13 @@ body{
     margin: auto;
 }
 
+.button{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+}
+
 .box-1 {
     background-color: #333333;
     color: #fff;
@@ -44,13 +51,17 @@ body{
     margin: 20px 0;
 }
 
-
 a{
     text-decoration: none;
 }
 
 a:hover{
     color:red;
+}
+
+.button:hover{
+    background-color: red;
+    color: #ffffff;
 }
 
 a:active{
@@ -94,3 +105,21 @@ a:active{
     border-bottom: dotted 1px #333;
 
 }
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type=text], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
